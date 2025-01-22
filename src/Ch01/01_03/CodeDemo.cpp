@@ -8,7 +8,7 @@
 int main(){
     std::string str;
     std::cin >> str;
-    std::cout << str;
+    std::cout << "nice to meet you, " + str << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
